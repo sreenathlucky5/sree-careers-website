@@ -1,3 +1,5 @@
-entrypoint = "app.py"
-
-[nix]
+{ pkgs }: {
+  deps = [
+    pkgs.python38  # Ensures Python 3.8 is installed
+  ];
+}
