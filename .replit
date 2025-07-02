@@ -1,5 +1,5 @@
 { pkgs }: {
   deps = [
-    pkgs.python38  # Ensures Python 3.8 is installed
+    pkgs.python39
   ];
 }
